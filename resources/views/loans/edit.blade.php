@@ -104,7 +104,7 @@
                                         name="user"
                                         value="{{$loan->user}}"
                                         type="text"
-                                        placeholder="Enter car title"
+                                        placeholder="Enter anime title"
                                         class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                                     />
                                 </div>
@@ -114,7 +114,7 @@
                                     id="loan_date"
                                     name="loan_date"
                                     type="text"
-                                    placeholder="Type car synopsis"
+                                    placeholder="Type anime synopsis"
                                     class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                                 >{{$loan->loan_date}}</textarea>
                             </div>
@@ -125,7 +125,7 @@
                                     id="return_date"
                                     name="return_date"
                                     type="text"
-                                    placeholder="Type car synopsis"
+                                    placeholder="Type anime synopsis"
                                     class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                                 >{{$loan->return_date}}</textarea>
                             </div>
@@ -136,7 +136,7 @@
                                     id="total_cost"
                                     name="total_cost"
                                     type="text"
-                                    placeholder="Type car synopsis"
+                                    placeholder="Type anime synopsis"
                                     class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                                 >{{$loan->total_cost}}</textarea>
                             </div>
@@ -145,9 +145,9 @@
     <label class="mb-3 block text-sm font-medium text-black dark:text-white">Status <span class="text-meta-1">*</span></label>
     <select id="status" name="status"
             class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary">
-        <option value="pending" {{ $loan->status === 'pending' ? 'selected' : '' }}>Pending</option>
-        <option value="approved" {{ $loan->status === 'approved' ? 'selected' : '' }}>Approved</option>
-        <option value="rejected" {{ $loan->status === 'rejected' ? 'selected' : '' }}>Rejected</option>
+       
+        <option value="borrowed"{{ $loan->status === 'borrowed' ? 'selected' : '' }}>borrowe</option>
+        <option value="returned" {{ $loan->status === 'returned' ? 'selected' : '' }}>returned</option>
     </select>
 </div>
 

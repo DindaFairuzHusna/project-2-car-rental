@@ -54,7 +54,7 @@
                 <div class="rounded-sm border border-stroke bg-white shadow-default">
                     <div class="border-b border-stroke px-6.5 py-4">
                         <h3 class="font-medium text-black">
-                            Car Form 
+                            Movie Form
                         </h3>
                     </div>
                     <form action="/loans" method="POST">
@@ -151,9 +151,9 @@
     <label class="mb-3 block text-sm font-medium text-black">Status <span class="text-meta-1">*</span></label>
     <select id="status" name="status"
             class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter">
-        <option value="pending">Pending</option>
-        <option value="approved">Approved</option>
-        <option value="rejected">Rejected</option>
+       
+        <option value="borrowed">borrowed</option>
+        <option value="returned">returned</option>
     </select>
 </div>
 
