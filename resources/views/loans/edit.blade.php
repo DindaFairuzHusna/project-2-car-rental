@@ -104,7 +104,7 @@
                                         name="user"
                                         value="{{$loan->user}}"
                                         type="text"
-                                        placeholder="Enter anime title"
+                                        placeholder="Enter car title"
                                         class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                                     />
                                 </div>
@@ -114,7 +114,7 @@
                                     id="loan_date"
                                     name="loan_date"
                                     type="text"
-                                    placeholder="Type anime synopsis"
+                                    placeholder="Type car synopsis"
                                     class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                                 >{{$loan->loan_date}}</textarea>
                             </div>
@@ -125,7 +125,7 @@
                                     id="return_date"
                                     name="return_date"
                                     type="text"
-                                    placeholder="Type anime synopsis"
+                                    placeholder="Type car synopsis"
                                     class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                                 >{{$loan->return_date}}</textarea>
                             </div>
@@ -136,7 +136,7 @@
                                     id="total_cost"
                                     name="total_cost"
                                     type="text"
-                                    placeholder="Type anime synopsis"
+                                    placeholder="Type car synopsis"
                                     class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                                 >{{$loan->total_cost}}</textarea>
                             </div>

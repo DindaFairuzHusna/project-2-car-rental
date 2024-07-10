@@ -54,7 +54,7 @@
                 <div class="rounded-sm border border-stroke bg-white shadow-default">
                     <div class="border-b border-stroke px-6.5 py-4">
                         <h3 class="font-medium text-black">
-                            Movie Form
+                            Car Form
                         </h3>
                     </div>
                     <form enctype="multipart/form-data" action="/cars" method="POST">
@@ -66,14 +66,14 @@
                                     id="name"
                                     name="name"
                                     type="text"
-                                    placeholder="Enter anime title"
+                                    placeholder="Enter car title"
                                     class="w-full rounded border-[1.5px] border-stroke bg-transparent px-5 py-3 font-normal text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter"
                                 />
                             </div>
 
                             <div class="mb-4.5">
                                 <label class="mb-3 block text-sm font-medium text-black"> 
-                                    Poster 
+                                    Photo 
                                     <span class="text-meta-1">*</span> 
                                 </label>
                                 <input

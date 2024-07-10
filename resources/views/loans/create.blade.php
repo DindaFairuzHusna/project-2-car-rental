@@ -54,7 +54,7 @@
                 <div class="rounded-sm border border-stroke bg-white shadow-default">
                     <div class="border-b border-stroke px-6.5 py-4">
                         <h3 class="font-medium text-black">
-                            Movie Form
+                            Car Form 
                         </h3>
                     </div>
                     <form action="/loans" method="POST">
